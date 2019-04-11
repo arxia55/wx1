@@ -1,0 +1,6 @@
+test
+
+https://github.com/arxia55/wx1.git
+
+git remote add origin https://github.com/arxia55/wx1.git
+
