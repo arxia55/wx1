@@ -1,0 +1,357 @@
+.c-gold {
+  color: #b0864c;
+}
+.c-yellow {
+  color: #ffce59;
+}
+a.c-gold {
+  color: #b0864c;
+}
+body {
+  padding-right: 0px !important;
+}
+*.modal-open {
+  overflow-y: scroll;
+  padding-right: 0 !important;
+}
+.productList {
+  background: #fff;
+}
+.productList .bd .row {
+  margin-bottom: 30px;
+}
+.productList .bd .row img {
+  width: 100%;
+  height: 100%;
+}
+.productList .bd .row h4 {
+  padding-top: 5px;
+}
+.productList .bd .row .item {
+  margin-bottom: 30px;
+}
+.s2 {
+  position: relative;
+}
+.swiper2-box {
+  position: relative;
+}
+.swiper2-box .swiper-wrapper,
+.swiper2-box .swiper-slide {
+  overflow: hidden;
+  height: auto!important;
+}
+.swiper2-box .pnext {
+  background: none;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  transform: scale(0.8);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  z-index: 55;
+  background: rgba(255, 255, 255, 0.2);
+}
+.swiper2-box .prev {
+  left: 0;
+}
+.swiper2-box .next {
+  right: 0;
+}
+.swiper2-box .pnext:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+.swiper2-box .swiper-slide .container {
+  margin: 0 auto;
+}
+.swiper2-box .item-text > * {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper2-box .item-text h4 {
+  margin-bottom: 10px;
+}
+.reservePop {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reservePop H2 {
+  height: 48px;
+  line-height: 48px;
+  background: rgba(0, 0, 0, 0.6);
+  background: #000;
+  color: #ffce59;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid #ffce59;
+  margin: 0;
+}
+.reservePop .bd {
+  background: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.reservePop .bd .txt {
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+}
+.reservePop .bd .btn {
+  width: 200px;
+  height: 36px;
+  background: #ffce59;
+  color: #333;
+  border-radius: 0;
+  font-size: 16px;
+}
+.productBox1 .item {
+  margin-bottom: 20px;
+}
+.productBox1 .centerDiv-inner {
+  margin: 0 20px;
+}
+.productBox2 .item {
+  margin-bottom: 15px;
+}
+.productBox2 .item img {
+  width: 100%;
+}
+.list3-item {
+  padding: 30px 0;
+  position: relative;
+}
+.list3-item .item-text {
+  margin-bottom: 20px;
+}
+.list3-item img {
+  width: 100%;
+}
+.list3-item .tit_2 {
+  -width: 70%;
+  margin: 0 auto 25px;
+}
+.list3-item .tit_3 {
+  font-size: 22px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  display: inline-block;
+  min-width: 40%;
+}
+.list3-item .text {
+  line-height: 1.8;
+}
+.swiper4 .swiper-wrapper,
+.swiper3 .swiper-wrapper,
+.swiper4 .swiper-slide,
+.swiper3 .swiper-slide {
+  overflow: hidden;
+  height: auto!important;
+}
+.swiper-tab {
+  display: none;
+}
+.pnext {
+  height: 40px;
+  line-height: 40px;
+  width: 25px;
+  margin-top: -20px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+.prev {
+  left: 0;
+  border-radius: 0 5px 5px 0;
+}
+.next {
+  right: 0;
+  border-radius: 5px 0 0 5px;
+}
+.list2-item {
+  padding: 30px 0;
+}
+.list2-item .text {
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.list2-item .text-center {
+  line-height: 1.7;
+}
+.list4-item {
+  background: #f5f5f5;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+.list4-item .item-text {
+  padding: 10px 0 30px;
+}
+.list4-item .item-text > * {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.productList2 .item {
+  padding: 0;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.productList2 .swiper-slide img {
+  width: 100%;
+}
+.productList2 .inner {
+  margin: 2px;
+  position: relative;
+}
+.productList2 .text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 5px 0 10px;
+  color: #fff;
+  z-index: 5;
+}
+.productList2 .text h4 {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+.productList2 .text p {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.tabNav-text {
+  line-height: 1.8;
+  padding-left: 10px;
+}
+.tabNav-text.t2 {
+  padding: 15px 10px 40px;
+}
+.swiper-tab .item {
+  padding-left: 0;
+  padding-right: 0;
+}
+.tab-content {
+  padding: 0;
+  position: relative;
+  height: auto!important;
+  overflow: hidden;
+}
+.tab-content .swiper-slide {
+  height: auto!important;
+  overflow: hidden;
+}
+.tab-content img {
+  max-width: 100%;
+}
+.swiper-nav {
+  padding: 0 0 0 5px;
+}
+.swiper-nav a {
+  width: 33.3%;
+  display: block;
+  float: left;
+}
+.swiper-nav a {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  padding: 5px;
+}
+.swiper-nav img {
+  width: 100%;
+}
+.swiper-nav .active {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#myDate .tit {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#myDate input {
+  display: block;
+  width: 100%;
+  text-indent: 110px;
+  min-width: 190px;
+}
+.jedate {
+  -width: 100%;
+  background: #1f1f1f;
+  border-color: transparent;
+}
+.jedate .jedate-content {
+  background: #1f1f1f;
+}
+.jedate .jedate-content .daystable,
+.jedate .jedate-footbtn,
+.jedate table td {
+  border-color: #1f1f1f;
+  color: #fff;
+}
+.jedate .jedate-content .daystable thead {
+  background: none;
+  border: none;
+}
+.jedate .jedate-header,
+.jedate .jedate-content .daystable td {
+  background-color: #0a0a0a;
+}
+.jedate .jedate-content .daystable td.action,
+.jedate .jedate-content .daystable td.action:hover,
+.jedate .jedate-content .daystable td.action .lunar {
+  background-color: #ffce59 !important;
+  color: #000 !important;
+}
+.jedate .jedate-content .daystable td.disabled,
+.jedate .jedate-content .daystable td.disabled .nolunar,
+.jedate .jedate-content .daystable td.disabled .lunar {
+  color: #666;
+}
+.jedate .jedate-content .daystable td:hover {
+  background-color: #ffce59;
+}
+.jedate .jedate-content .daystable td:hover p {
+  color: #000 !important;
+}
+.jedate .jedate-content .daystable td.disabled:hover {
+  background: none;
+}
+.jedate .jedate-content .daystable td.disabled:hover p {
+  color: #666 !important;
+}
+.jedate-footbtn {
+  display: none;
+}
+.scroll-box {
+  margin-top: 30px;
+  height: 260px;
+  overflow: hidden;
+}
+.scroll-box .bd {
+  overflow: hidden;
+}
+.scroll-box li {
+  float: left;
+  padding: 5px;
+  list-style: none;
+  margin: 0;
+  height: 260px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt10 {
+  margin-top: 10px;
+}

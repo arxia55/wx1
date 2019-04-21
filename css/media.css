@@ -1,0 +1,478 @@
+@media (max-width: 479px) {
+  .main p {
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .tit_1 {
+    margin-bottom: 30px;
+  }
+  .title_1 h2 span,
+  .tit_2 span {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .list2-item {
+    padding: 20px 0;
+  }
+  .customBox .customTip {
+    border-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .customBox .customTip span {
+    padding: 0;
+  }
+  .list3-item .tit_2 {
+    width: 100%;
+  }
+  .col-xs-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .productBox1 .centerDiv-inner {
+    margin: 0 5px;
+  }
+  .productBox2 .images {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 480px) {
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 640px) {
+  .banner .inner-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .banner .inner-text h2 {
+    font-size: 30px;
+  }
+  .reservePop h2 {
+    height: 48px;
+    line-height: 48px;
+    background: rgba(0, 0, 0, 0.6);
+    background: #000;
+    color: #ffce59;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border-top: 3px solid #ffce59;
+    margin: 0;
+  }
+  .reservePop .bd {
+    background: #f1f1f1;
+    padding: 20px 50px;
+    text-align: center;
+  }
+  .reservePop .bd .txt {
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .reservePop .bd .btn {
+    width: 200px;
+    height: 36px;
+    background: #ffce59;
+    color: #333;
+    border-radius: 0;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .customBox {
+    margin-top: -130px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-nav > li {
+    border-bottom: none;
+  }
+  .navbar-collapse .nav-left {
+    position: absolute;
+    right: 50%;
+    margin-right: 60px;
+  }
+  .navbar-collapse .nav-right {
+    position: absolute;
+    left: 50%;
+    margin-left: 50px;
+  }
+  .head-sm .navbar-collapse .nav-left {
+    transition: 0.3s;
+    transform: translateX(15px);
+  }
+  .head-sm .navbar-collapse .nav-right {
+    transition: 0.3s;
+    transform: translateX(-5px);
+  }
+  .hdNav {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .navbar-inverse {
+    background-color: transparent;
+  }
+  .navbar-nav > li > a {
+    line-height: 50px;
+  }
+  .navbar-brand span {
+    background: none;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  .navbar-brand img {
+    display: block;
+  }
+  .banner {
+    top: 0;
+  }
+  .productList2 .item {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .scroll-box {
+    display: none;
+  }
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+  p {
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .tit_1 {
+    text-align: left;
+  }
+  .tit_1 span {
+    width: 56%;
+    text-align: right;
+  }
+  .tit_1.tr {
+    text-align: right;
+  }
+  .tit_1.tr span {
+    text-align: left;
+  }
+  .productBox1 .item {
+    margin-bottom: 0;
+  }
+  .main {
+    padding-bottom: 150px;
+  }
+  .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title_1 {
+    padding-top: 90px;
+  }
+  .title_1 h2 {
+    font-size: 26px;
+    margin: 0 0 36px;
+  }
+  .title_1 h2 span {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+  .title_1 .desc {
+    font-size: 16px;
+  }
+  .navbar-nav > li > a {
+    padding: 0 18px;
+  }
+  .head-sm .headTop {
+    height: 0;
+    overflow: hidden;
+  }
+  .navbar-brand span {
+    width: 80%;
+  }
+  .banner .inner-text h1 {
+    font-size: 58px;
+  }
+  .banner .inner-text h2 {
+    font-size: 34px;
+  }
+  .scroll-box {
+    margin-top: 70px;
+  }
+  .footer .email-form {
+    margin: 0 0 20px;
+  }
+  .footer .address .tit {
+    float: left;
+  }
+  .footer .address .info {
+    margin-left: 40px;
+    display: block;
+  }
+  .footer .ft-crumbs {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .footer .content .item {
+    text-align: left;
+  }
+  .footer .ft-center {
+    text-align: left;
+    border-top: none;
+    padding-top: 0;
+  }
+  .slide2 .left {
+    left: -70px;
+  }
+  .slide2 .right {
+    right: -70px;
+  }
+  .slide2 .item {
+    font-size: 0;
+  }
+  .slide2 .item-image,
+  .slide2 .item-text {
+    width: 50%;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+  }
+  .slide2 .item-text {
+    width: 40%;
+    margin-left: 5%;
+    font-size: 14px;
+  }
+  .customBox h2 {
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+  .customBox .customTip span {
+    padding: 0 40px;
+  }
+  .list3-item {
+    border-bottom: 1px solid #ddd;
+  }
+  .list3-item h2 {
+    width: 100%;
+    display: block;
+  }
+  .list3-item > * {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .list3-item .centerBox .inner {
+    padding-left: 12%;
+  }
+  .list3-item .centerBox .text {
+    padding-right: 10%;
+  }
+  .centerBox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .centerBox .wrap {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  .centerBox .wrap .inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .inlineBlock {
+    font-size: 0;
+  }
+  .inlineBlock > * {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    font-size: 14px;
+  }
+  .list4-item {
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .list4-item > * {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .list4-item .item-text * {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper2-box .pnext {
+    color: #666;
+    border-color: #666;
+  }
+  .swiper2-box .prev {
+    left: -65px;
+  }
+  .swiper2-box .next {
+    right: -65px;
+  }
+  .swiper2-box .pnext:hover {
+    border-color: #b0864c;
+    color: #b0864c;
+  }
+  .swiper2-box .item-text > * {
+    width: 80%;
+    max-width: 650px;
+  }
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .swiper-tab {
+    display: block;
+  }
+  .navbar-brand span {
+    width: 100%;
+  }
+  .pnext {
+    width: 35px;
+    height: 64px;
+    line-height: 64px;
+    margin-top: -32px;
+    font-size: 20px;
+  }
+  .scroll-box {
+    display: block;
+  }
+  .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-nav > li > a {
+    padding: 0 30px;
+  }
+  .navbar-brand img {
+    width: 100%;
+  }
+  .navbar-collapse .nav-left {
+    margin-right: 80px;
+  }
+  .navbar-collapse .nav-right {
+    margin-left: 80px;
+  }
+  .navbar-brand {
+    top: -28px;
+  }
+  .navbar-brand img {
+    width: 100%;
+  }
+  .banner {
+    margin-top: 28px;
+  }
+  .productList .row {
+    margin-bottom: 40px;
+  }
+  .productList h4 {
+    font-size: 22px;
+  }
+  #myDate input {
+    text-indent: 100px;
+  }
+  .customBox-wrap {
+    min-width: 1180px;
+  }
+  .customBox-wrap .custom-items {
+    margin-bottom: 0;
+    margin-right: 5px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+    background: #2e2e2e;
+  }
+  .customBox-wrap .inner {
+    width: 100%;
+  }
+  .customBox-wrap .item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+    margin-bottom: 0;
+    padding: 0 2px;
+  }
+  .customBox-wrap .item .tit .ic {
+    margin-right: 0;
+  }
+  .customBox-wrap .item button {
+    width: auto;
+  }
+  .customBox-wrap .item button .caret {
+    right: 5px;
+  }
+  .customBox-wrap .date-value {
+    width: 110px;
+  }
+  .customBox-wrap .name-input {
+    width: 70px;
+  }
+  .customBox-wrap .phone-input {
+    width: 100px;
+  }
+  .customBox-wrap .btn {
+    width: 180px;
+  }
+  .customBox-wrap .customTip {
+    margin-top: 30px;
+  }
+  .customBox-wrap .customTip span {
+    font-size: 14px;
+  }
+  .customBox-wrap .icLine {
+    display: inline-block;
+  }
+  .productList2 text h2 {
+    font-size: 18px;
+  }
+  .productList2 text p {
+    font-size: 14px;
+  }
+  .list3-item .centerBox .inner {
+    padding-left: 20%;
+  }
+  .swiper2-box .pnext {
+    width: 66px;
+    height: 66px;
+    line-height: 66px;
+  }
+}
+@media (min-width: 1340px) {
+  .customBox .inner {
+    width: 1105px;
+    margin: 0 auto;
+  }
+  .custom-items {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1900px) {
+  .container {
+    width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

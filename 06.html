@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>06</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/skin/jedate.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- header -->
+    <div id="header" class="header navbar navbar-default  navbar-inverse  navbar-fixed-top"> <!--head-sm-->
+        <div class="headTop container-fluid hidden-sm hidden-md hidden-xs">
+            <div class="pull-left ">紫金城娱乐集团是集旅游、度假村、餐饮、高尔夫、房地产、影视、慈善为一体的多元化集团公司</div>
+            <ul class="pull-right  hdTop-right">
+                <li class="WeChat dropdown">
+                    <div class="dropdown-toggle" data-toggle="dropdown"><i class="ic ic-vx"></i>微信预定</div>
+                    <p class="dropdown-menu ">
+                        <span class="glyphicon glyphicon-triangle-top"></span>
+                        <img src="images/vxewm.jpg" alt="">
+                    </p>
+                </li>
+                <li class="tel"><i class="ic ic-phone"></i>+63 9999 712 888</li>
+            </ul>
+        </div>
+        <div class="container-fluid hdNav">
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span><img src="img/logo_big.png" alt=""></span></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse ">
+                <ul class="nav navbar-nav nav-left">
+                    <li><a href="#">度假村</a></li>
+                    <li><a href="#">高级别墅</a></li>
+                    <li><a href="#">餐饮美食</a></li>
+                    <li><a href="#">高尔夫俱乐部</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav nav-right">
+                    <li><a href="#">spa瑜伽</a></li>
+                    <li><a href="#">娱乐活动</a></li>
+                    <li><a href="#">慈善基金会</a></li>
+                    <li><a href="#">紫金城游戏</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- header e-->
+    <!-- main -->
+    <div class="main">
+        <div class="swiper-container swiper banner">
+            <a class="pnext prev hidden-xs" href="javascript:void(0)"></a>
+            <a class="pnext next hidden-xs" href="javascript:void(0)"></a>
+            <div class="inner-text"><h1>陶醉于精彩体验之中</h1>
+                <h2>每一刻，每一种享受，都极尽喜悦</h2></div>
+            <div class="swiper-wrapper">
+                <div class="active swiper-slide" style="background-image: url('images/banner6_1.jpg')"></div>
+                <div class="active swiper-slide" style="background-image: url('images/banner6_2.jpg')"> </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="container customBox-wrap">
+                <div class="customBox">
+                    <h2>定制您的专属旅程</h2>
+                    <div class="bd">
+                        <div class="inner">
+                            <div class="formBox row clearfix">
+                                <div class="custom-items">
+                                    <div class="dropdown item clearfix ">
+                                        <button id="myDrop1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="tit"> <i class="ic ic-person"></i>旅行人数：</span>
+                                            <span class="drop-value"></span>
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu myDrop" aria-labelledby="myDrop1">
+                                            <li><a href="">1人</a></li>
+                                            <li><a href="">2人</a></li>
+                                            <li><a href="">3人</a></li>
+                                            <li><a href="">4人</a></li>
+                                            <li><a href="">5人</a></li>
+                                            <li><a href="">6人</a></li>
+                                            <li><a href="">7人</a></li>
+                                            <li><a href="">8人</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="custom-items">
+                                    <div class="dropdown item">
+                                        <button id="myDate" type="button">
+                                            <span class="tit"> <i class="ic ic-date"></i>出发日期：</span>
+                                            <input type="text" class="jeinput drop-value date-value" id="date" readonly placeholder="-">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </div>
+                                    <i class="icLine"></i>
+                                    <div class="dropdown item ">
+                                        <button id="myDrop2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="tit"><i class="ic ic-day"></i>旅行天数：</span>
+                                            <span class="drop-value"></span>
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu myDrop" aria-labelledby="myDrop2">
+                                            <li><a href="">1天</a></li>
+                                            <li><a href="">2天</a></li>
+                                            <li><a href="">3天</a></li>
+                                            <li><a href="">4天</a></li>
+                                            <li><a href="">5天</a></li>
+                                            <li><a href="">6天</a></li>
+                                            <li><a href="">7天</a></li>
+                                            <li><a href="">8天</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="custom-items">
+                                    <div class="item input-my-item">
+                                        <span class="tit"><i class="ic ic-name"></i>姓名： </span>
+                                        <div class="name-input">
+                                            <input class="name" type="text">
+                                        </div>
+                                    </div>
+                                    <i class="icLine "></i>
+                                    <div class="item input-my-item">
+                                <span class="tit">
+                                    <i class="ic ic-tel"></i>联系电话：
+                                </span>
+                                        <div class="phone-input">
+                                            <input class="phone" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="reserveBtn" class="btn btn-block btn-default item" data-toggle="modal">立即预定</button>
+                            </div>
+                            <div class="customTip"><span>私人管家会在2个工作日内通过电话向您了解更多信息</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="title_1 col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                        <h2><span>「 紫金城 」·  娱乐项目</span></h2>
+                        <p class="desc">每一刻，都是一种享受</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="row productList2">
+                        <div class="col-sm-6 col-lg-4 item">
+                            <div class="inner">
+                                <div class="swiper-container swiper swiper4">
+                                    <a class="pnext prev" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-left"></span></a>
+                                    <a class="pnext next" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-right"></span></a>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/p6-11.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-12.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-13.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>水上运动</h4>
+                                    <p>冲浪、帆船、站立划桨、浮潜、潜水、皮划艇、滑水、深海捕鱼。持续进行的水上运动，可能性无穷无尽。对于初学者，我们提供或安排最好的教练课程。对于专家，我们根据您的要求为您提供量身定制的水上运动项目。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item">
+                            <div class="inner">
+                                <div class="swiper-container swiper swiper4">
+                                    <a class="pnext prev" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-left"></span></a>
+                                    <a class="pnext next" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-right"></span></a>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/p6-21.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-22.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-23.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>岛屿环游</h4>
+                                    <p>使用私人面包车或Jeepney开启岛屿之旅。您可以创建自己的行程，包括在村庄停留和观赏自然美景。岛屿环游需要整整四到五个小时。</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item">
+                            <div class="inner">
+                                <div class="swiper-container swiper swiper4">
+                                    <a class="pnext prev" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-left"></span></a>
+                                    <a class="pnext next" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-right"></span></a>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/p6-31.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-32.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-33.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>世外桃源活动—沙滩运动，私人影院</h4>
+                                    <p>我们有许多活动在私人z领域开始。白天，草坪和白色沙滩非常适合举办足球，板球，羽毛球或法式滚球的友谊赛。台球室。甚至还有一个沙滩排球场。晚上，选择一部电影，在游泳池附近找到一个舒适的地方，并享受户外电影。你的电影将被投射到两个椰子树之间的大屏幕上。</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item">
+                            <div class="inner">
+                                <div class="swiper-container swiper swiper4">
+                                    <a class="pnext prev" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-left"></span></a>
+                                    <a class="pnext next" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-right"></span></a>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/p6-41.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-42.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-43.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>跳跃岛屿</h4>
+                                    <p> 环绕海湾及其他地方的岛屿可以让您度过美好的一天。在Pansukian（一个小小的沙漠岛屿）开始。前往达库进行浮潜和冲浪。然后在岛上风景如画的海滩享受我们的厨房套餐。继续前往Guyam喝一杯。全部私人制定，乘船游览海景，凉爽舒适的沙滩椅，并参观附近岛屿之一众多幽静的海滩。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item">
+                            <div class="inner">
+                                <div class="swiper-container swiper swiper4">
+                                    <a class="pnext prev" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-left"></span></a>
+                                    <a class="pnext next" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-right"></span></a>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/p6-51.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-52.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-53.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>儿童活动</h4>
+                                    <p> 除了孩子们可以做的许多户外活动外，孩子们还会喜欢属于自己的游戏活动区域。它拥有弹性蹦床和秋千，所有内部阴影编织小屋。还有一个带休息室和滑梯的新树屋平台，孩子们可以骑车到沙地游乐区。</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item">
+                            <div class="inner">
+                                <div class="swiper-container swiper swiper4">
+                                    <a class="pnext prev" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-left"></span></a>
+                                    <a class="pnext next" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-right"></span></a>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/p6-61.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-62.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/p6-63.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>私人制定（婚礼、蜜月、公司活动）</h4>
+                                    <p>作为我们的客人，我们邀请您自己制作您的私人度假，并且我们也非常高兴为您提供帮助。当然，这意味着满足您的所有需求，但它也意味着让您有自由的感觉。无论您是计划家庭度假、蜜月、小型婚礼，公司活动，冲浪之旅还是瑜伽休闲，我们都可以根据您的需求量身制定私人度假。您很快就会发现，这种家的温暖，自由的感觉，才是真正属于您的私人旅行。</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="ft-crumbs"><a href="">首页</a><span>/</span>「紫金城」综合渡假城</div>
+            <div class="row content">
+                <div class="col-lg-3 col-md-2 col-xs-6 item">
+                    <h4>快速制定</h4>
+                    <div class="info navs">
+                        <a href="">制定出行计划</a>
+                        <a href="">预订度假村</a>
+                        <a href="">预订高尔夫球场</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-xs-6 item">
+                    <h4>精彩体验</h4>
+                    <div class="info navs">
+                        <a href="">度假城</a>
+                        <a href="">高级别墅</a>
+                        <a href="">餐饮美食</a>
+                        <a href="">高尔夫球场</a>
+                        <a href="">温泉与spa</a>
+                        <a href="">娱 乐</a>
+                        <a href="">社会项目</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-12 ft-center item ft-contact">
+                    <p><i class="iconfont icon-dianhua"></i>预定专线：+63 9999 712 888</p>
+                    <p><i class="iconfont icon-weixin"></i>微信预定</p>
+                    <p><img src="images/vxewm.jpg" alt=""></p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-12 ft-center item ">
+                    <h4>关注我们</h4>
+                    <div class="icons">
+                        <a href=""><i class="ic icon1"></i></a>
+                        <a class="WeChat dropdown">
+                            <div class="dropdown-toggle" data-toggle="dropdown"><i class="ic icon2"></i></div>
+                            <p class="dropdown-menu ">
+                                <span class="glyphicon glyphicon-triangle-top"></span>
+                                <img src="images/vxewm.jpg" alt="">
+                            </p>
+                        </a>
+
+                        <a href=""><i class="ic icon3"></i></a>
+                        <a href=""><i class="ic icon4"></i></a>
+                    </div>
+                    <p>获得独家优惠和促销活动</p>
+                    <form class="email-form ">
+                        <input class="keyword" type="text" placeholder="请输入你的邮箱地址">
+                        <button class="submit">订阅</button>
+                    </form>
+                    <div class="address">
+                        <span class="tit"><i class="iconfont icon-dizhi"></i>地址：</span>
+                        <span class="info">Malinao | General Luna,Mindanao 8419, Philippines</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">© 2018 紫金城娱乐有限公司，保留所有权利。</div>
+    </div>
+    <!-- footer e -->
+    <!-- 立即预定 弹窗 -->
+    <div id="reservePop" class="modal fade reservePop" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content"></div>
+        </div>
+    </div>
+    <!-- 立即预定 弹窗 e-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jedate.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/myjs.js"></script>
+
+
+</body>
+</html>
